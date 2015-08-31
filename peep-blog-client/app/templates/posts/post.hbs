@@ -1,0 +1,10 @@
+{{#link-to 'posts.post.edit' model}}Edit{{/link-to}}
+
+<h2>{{model.title}}</h2>
+<article>
+	{{model.body}}
+</article>
+
+<button {{action 'delete'}}>Delete</button>
+
+{{outlet}}
